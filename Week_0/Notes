@@ -1,0 +1,70 @@
+Week 0 -- Scratch
+
+Computer science is fundamentally problem solving
+
+    We can think of problem solving as the process of taking some input (a 
+        problem we want to solve) and generate some put (the solution to the
+            problem)
+
+    Input --> |_____| --> output
+
+In order to transform inputs to outputs we need algorithms, or step-by-step
+    instructions for solving problems
+
+    Input --> Algorithm --> output
+
+Pseudocode can be written to represent our an algorithm in precise English
+
+    For example:
+
+        1  Pick up phone book
+        2  Open to middle of phone book
+        3  Look at page
+        4  If person is on page
+        5      Call person
+        6  Else if person is earlier in book
+        7      Open to middle of left half of book
+        8      Go back to line 3
+        9  Else if person is later in book
+        10     Open to middle of right half of book
+        11     Go back to line 3
+        12 Else
+        13     Quit
+
+    Some of these lines start with actions or verbs that solve a smaller 
+        problem:
+
+        Pick up
+        Open to 
+        Look at
+        Call
+        Open to
+        Quit
+
+        These are our functions 
+
+    We also have branches that lead to different paths, like forks in the road,
+
+        If
+        Else if
+        Else
+
+        These are our conditionals
+
+
+    The questions that decide where we go are called Boolean expressions, which
+        eventually result in ansewrs of yes or no, or true or false:
+
+        person is on page
+        person is earlier in book
+        person is later in book
+
+    Lastly, we have words that create cycles, whre we can repeat parts of our
+        program, called loops:
+
+        Go back to line 3
+
+-------------
+
+We can use the idea of abstraction, or combining several ideas into one, so we
+    can use and think about them more easily
