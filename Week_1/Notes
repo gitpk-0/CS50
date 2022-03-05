@@ -1,0 +1,55 @@
+Week 1 -- C
+
+When we evaluate the quality of our code, we might consider the following aspects:
+- correctness, or whether our code solves our problem correctly
+- design, or how well-written our code is, based on how efficient and readable it is
+- style, or how well-formatted our code is visually
+
+First program in C (prints "hello, world" to the screen):
+
+#include <stdio.h>
+
+int main(void)
+{
+        printf("hello, world\n");
+}
+
+In order to turn this code into a program that our computer can actually run, we need to first translate it to binary, or zeroes and ones
+
+A compiler is a program that can convert one language to another, such as source code to machine code
+
+source code --> compiler --> machine code
+
+C expects variable types to be declared
+
+For example:
+
+string answer = get_string("What's your name? ");
+
+Indicating to C that the answer variable is of type string
+
+In C, main achieves a similar effect as the Scratch block "when green flag      
+clicked":
+
+int main(void)
+{
+        
+}
+
+The curly braces, { and }, surround the code that will run when our program is
+run as well
+
+Header files, like stdio.h, tells our compiler which libraries to load into our
+program
+
+stdio.h is a like a menu of functions and features like printf that we can use
+in our code
+
+The const keyword tells the compiler to ensure that the value of the variable
+declared isn't changed
+
+By convention the name of the variable should be in all uppercase
+
+For example:
+
+const int MINE = 2;
