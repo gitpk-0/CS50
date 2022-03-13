@@ -1,0 +1,32 @@
+Week 2 -- Arrays
+
+make is actually just a program that calls clang, a compiler named for the "C language"
+
+We can compile our source code, hello.c, directly by running the command clang hello.c in the terminal:
+
+clang hello.c
+
+The default file name for clang's output is a.out
+
+We can add an argument to clang to give the program the name we want:
+
+clang -o hello hello.c
+
+clang -o [name_we_want] [c program name]
+
+If libraries are being added to the program they must be included in the command line argument:
+
+clang -o hello hello.c -lcs50
+
+The make command does all of this under the hood
+
+In C, strings end with a special character, '\0', or a byte with all eight bits set to 0, so our programs have a way of knowing where the string ends
+
+This character is called the null character, or NUL
+
+So, we actually need four bytes to store our string with three characters
+
+A non-zero exit status indicates some error to the system that runs our program
+
+Once we run return 1; our program will exit early with an exit status of 1
+
