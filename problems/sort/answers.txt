@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: It has the fastest run time for files that are already sorted.
+
+sort2 uses: Merge Sort
+
+How do you know?: It has the fastest run time for the unsorted files.
+
+sort3 uses: Selection Sort
+
+How do you know?: It is the slowest for the files that are already sorted.

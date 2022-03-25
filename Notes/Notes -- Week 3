@@ -1,0 +1,71 @@
+Week 3 -- Algorithms
+
+To compare algorithm efficiency, we consider running time, or how long an algorithm takes to run given some size of input
+
+Computer scientist tend to describe running time with big O notation, which we can think of as "on the order of" something as though we want to convey an idea of running time and not an exact number of milliseconds or steps
+
+For loops operate in O(n) time -- as they iterate through each n object linearly
+
+We'll see some common running times:
+
+O(n^2)
+
+O(n log n)
+
+O(n)
+
+O(log n)
+
+0(1)
+
+Linear search = O(n)
+
+Binary search = O(log n)
+
+Algorithms that are dividing in half, or any other multiple, it's probably involving logarithms in some sense (log)
+
+In C, we can define our own data type, or data structure
+
+STRUCT:
+
+typedef struct
+{
+    string name;
+    string number;
+}
+person;
+
+The name of the data structure created above would be "person"
+
+typedef struct
+{
+    string name;
+    string number;
+}
+person;
+
+int main(void)
+{
+    person people[2];
+
+    people[0].name = "Carter";
+    people[0].number = "+1-617-495-1000";
+
+    people[1].name = "David";
+    people[1].number = "+1-949-468-2750";
+
+    for (int i = 0; i < 2; i++)
+    {
+        if (strcmp(people[i].name, "David") == 0)
+        {
+            printf("Found %s\n", people[i].number);
+            return 0;
+        }
+    }
+    printf("Not found\n");
+    return 1;
+}
+
+We can use the dot operator "." to set the values for each variable inside each person struct
+
+In CS, encapsulation is the idea that related data is grouped together, and here we've encapsulated two pieces of info, name and number into the same data structure
