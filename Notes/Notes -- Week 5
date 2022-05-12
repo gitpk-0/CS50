@@ -1,0 +1,68 @@
+Week 5 -- Data Structures
+
+Statically allocating an array uses the stack (top)
+
+Dynamically allocating an array uses the heap (bottom)
+
+realloc = function to reallocate, and dynamically resize a block of memory that
+    had already been allocated by malloc
+
+--------
+
+Linked Lists
+
+When we have a large enough array, there might not be enough free memory
+    continguously, in a row, to store all of our values
+
+With a linked list, we can use smaller chucks of free memory for each node,
+    stiching them together with pointers
+
+Good practice to initialize variables to NULL (instead of nothing) so at least
+    its a known value and not a potentially garbage value
+
+NULL can be checked for with a conditional statement
+
+--------
+
+Trees
+
+A tree is another data structure where each node points to other nodes
+
+The root of the tree is the beginning of the data structure
+
+Binary Search Tree
+
+Each node has at most two children, or nodes it is pointing to
+
+All of the values to the left of a node are smaller, and all the values of nodes
+to the right are greater
+
+--------
+Hash Tables
+
+A data structure that allows us to associate keys with values
+
+Hash function
+
+Takes an input and produces and index or location
+
+--------
+
+Trie
+
+Pronounced like "try" and short for "retrieval", is a data structure that is a
+    tree with arrays as nodes
+
+--------
+
+Queue
+
+An abstract data structure, like a line of people waiting, where the first value
+    we put in are the first values that are removed (FIFO)
+
+To add a value we enqueue it, and to remove a value we dequeue it
+
+Stack
+
+Another abstract data structure where items most recently added are removed 
+    first (LIFO)

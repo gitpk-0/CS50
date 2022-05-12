@@ -1,0 +1,35 @@
+Week 6 -- Python
+
+print(f"hello, {answer}")
+
+The f before the double quotes indicates that this is a format string which will allow us to use curly braces, {}, to include variables that should be substituted, or interpolated
+
+Unlike in C, where curly braces are used to indicate blocks of code, the exact indentation of each line determines the level of nesting in Python. And we don’t need parentheses around the Boolean expressions
+
+Both True and False are capitalized in Python
+
+Lists in Python, [0, 1, 2], are like arrays or linked lists in C
+
+In Python, there are built-in data types similar to those in C:
+bool, True or False
+float, real numbers
+int, integers which can grow as needed
+str, strings
+
+Other types in Python include:
+range, sequence of numbers
+list, sequence of mutable values, or values we can change
+tuple, sequence of immutable values
+dict, dictionaries, collection of key/value pairs, like a hash table
+set, collection of unique values, or values without duplicates
+
+To run a program we wrote in Python, we’ll only need to run:
+python hello.py
+
+python is the name of a program called an interpreter, which reads in our source code and translates it to code that our CPU can understand, line by line
+
+Our source code files will also end in .py, to indicate that they’re written in the Python language
+
+Python's input function returns input values as strings by default
+
+So we need to cast, or convert, each value from input into an int before we store it
